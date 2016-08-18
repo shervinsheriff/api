@@ -1,7 +1,7 @@
 ver="1.0"
 if [ "$1" = "--help" ]; then
   echo -e "
-        \033[31;47mSheriff Telegram Bot\033[0m
+        \033[31;47mJack Telegram Bot\033[0m
 
               \033[5mV $ver\033[0m
 
@@ -17,15 +17,15 @@ if [ "$1" = "--help" ]; then
 elif [ "$1" = "--about" ]; then
   echo -e "
 
-        \033[31;47mSheriff Telegram Bot\033[0m
+        \033[31;47mJack Telegram Bot\033[0m
 
-         By Shervin Shěriff
+         By Iman Daneshi
 
               \033[5mV $ver\033[0m
 
 A multi purpose Telegram bot written in MoonScript !
 
-Telegram.me/hacker_unknown
+Website: jack.seedteam.org
 
 "
 elif [ "$1" = "--Update" ]; then
@@ -33,9 +33,9 @@ elif [ "$1" = "--Update" ]; then
 else
   echo -e "
 
-        \033[31;47mSheriff Telegram Bot\033[0m
+        \033[31;47mJack Telegram Bot\033[0m
 
-         By Shervin Shěriff
+         By Iman Daneshi
 
               \033[5mV $ver\033[0m
 "
